@@ -1,4 +1,4 @@
-`include "packet.sv"
+`include "transaction.sv"
 `include "apb_sequences.sv"
 `include "apb_driver.sv"
 `include "omon.sv"
