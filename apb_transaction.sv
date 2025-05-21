@@ -19,7 +19,7 @@ class packet extends uvm_sequence_item;
   
   function void post_randomize();
     if(paddr<mem_size)
-      al_addr=al+addr+1;
+      al_addr=al_addr+1;
     else
       al_addr=0;
   endfunction
